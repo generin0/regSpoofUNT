@@ -22,7 +22,7 @@ try:
         for value in values_delete:
             try:
                 winreg.DeleteValue(key, value)
-                print("Значение удалено: {value}")
+                print("Value deleted: {value}")
             except FileNotFoundError:
                 print("File not found: {value}")
 except FileNotFoundError:
