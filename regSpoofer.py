@@ -1,5 +1,4 @@
 import winreg
-import random
 
 values = ['Screenmanager Stereo 3D_h1665754519',
 'Screenmanager Resolution Width Default_h680557497',
